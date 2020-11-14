@@ -1,0 +1,30 @@
+{
+  "name": "projetoguiado-s14",
+  "version": "1.0.0",
+  "description": "Api Contatos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pascoa21/ProjetoGuiado-S14.git"
+  },
+  "author": "Jessyca Pascoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pascoa21/ProjetoGuiado-S14/issues"
+  },
+  "homepage": "https://github.com/pascoa21/ProjetoGuiado-S14#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {}
+}
